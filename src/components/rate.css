@@ -1,0 +1,10 @@
+.Toggle:hover{
+color:"#8d108d";
+}
+#dropdown-nav-basic{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 500;
+     border-color:"transparent";
+     color:"#8d108d";
+}
