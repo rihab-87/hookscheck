@@ -18,7 +18,7 @@ padding-right: 15px;
   justify-content: space-around;
 }
 .styl-link{
-  color: #8d108d !important;;
+  color: #8d108d !important;
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   font-weight: 600;
@@ -30,3 +30,16 @@ padding-right: 15px;
   font-family: 'Times New Roman', Times, serif;
 }
 
+.nav-pos{
+  display:flex;
+  justify-content: space-around;
+ 
+}
+
+.navbar-brand{
+  display:flex;
+  align-items: baseline;
+}
+.pos-star{
+  margin-left: 490px;
+}

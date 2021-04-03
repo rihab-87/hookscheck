@@ -1,23 +1,18 @@
 import React from 'react';
-import { Dropdown} from 'react-bootstrap';
+import { } from 'react-bootstrap';
+import StarRatingComponent from 'react-star-rating-component';
 import'./rate.css'
-const Rate = ({handlerate}) => {
+const Rate = ({onStarClick,rating}) => {
     return (
-        <Dropdown>
-        <Dropdown.Toggle variant="light"  style={{fontFamily: "'Times New Roman', Times, serif",
-    fontSize: "medium",
-    fontWeight: 700,
-     borderColor:"transparent",
-     color:"#8d108d", backgroundColor:"transparent"}} id="dropdown-nav-basic">
-         Rate </Dropdown.Toggle>
-         
-      
-        <Dropdown.Menu>
-          <Dropdown.Item  onClick={handlerate}>1</Dropdown.Item>
-          <Dropdown.Item  onClick={handlerate}>2</Dropdown.Item>
-          <Dropdown.Item  onClick={handlerate}>3</Dropdown.Item>
-        </Dropdown.Menu>
-      </Dropdown>
+        <>
+        <div  className="nav-link star-box">
+          <StarRatingComponent
+            name="app5"
+            value={rating}
+            onStarClick={onStarClick} 
+            emptyStarColor={'#8d108d'}/>
+        </div>
+      </>
     );
 }
 

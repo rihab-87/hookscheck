@@ -4,12 +4,8 @@ const MoviesList = ({data}) => {
   console.log(data)
     return (
              
-  //   <Container  className="fluid" >    
-  //     {/* {data.map( el => <MovieCard movie={el}/>)} */}
-  //  {data.map((mvCard,idx) => <Col lg="4" className="col-pad"><MovieCard title={mvCard.title} description={mvCard.description} img={mvCard.Img}/> </Col>)}
-  //   </Container>
-
-  <Container  className="fluid">
+  
+  <Container  style={{marginTop:"150px"}} className="fluid">
        <Row>
   
     {data.map((mvCard,idx) =><Col lg="4" className="col-pad"> <MovieCard movie={mvCard}/>  </Col>)}

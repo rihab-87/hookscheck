@@ -1,10 +1,16 @@
-.Toggle:hover{
-color:"#8d108d";
+
+.star-box{
+  padding-top:16px ;
+  font-Size: 26px;
 }
-#dropdown-nav-basic{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    font-weight: 500;
-     border-color:"transparent";
-     color:"#8d108d";
+ @media (max-width:500px){
+.star-box{
+  padding-top: 0px !important;
+ padding-bottom: 0px;
+height: 30px;
+font-Size: 20px;  
 }
+ .dv-star-rating{
+  height:30px;
+} 
+ } 

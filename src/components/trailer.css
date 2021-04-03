@@ -1,0 +1,78 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+
+
+
+.nav-pos-trailer{
+    display:flex;
+    justify-content: space-between;
+    height:70px;
+    width:100%;
+    align-items: center;
+    margin-right: 60px;
+    margin-left: 60px;
+   
+  }
+    .styl-link-trailer{
+      color: #8d108d !important;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: xx-large;
+      font-weight: 900;
+    
+  }
+
+ 
+  
+  .styl-logo{
+    font-size: xx-large;
+    font-weight: 900;
+    color:#8d108d;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .nav-pos{
+    display:flex;
+    justify-content: space-around;
+    /* height:70px; */
+   
+  
+  }
+  
+  .navbar-brand{
+    display:flex;
+    align-items: baseline;
+  }  
+  .star-box{
+    padding-top:30px ;
+  }
+  .title-style{
+   justify-content: center!important;
+    color: #8d108d !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: 600 !important;
+    font-style: italic;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+  
+  }
+  .descr-style{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:500;
+    font-size :x-large;
+    text-align: center;
+    color:black;
+    align-items: center;
+  }
+  .pos-descr{
+    display: flex;
+   align-items:  center;
+    height:360px;
+    width:100%;
+    border: 1px solid grey ;
+    box-shadow: 0px 1px 10px 1px #333333
+  }
